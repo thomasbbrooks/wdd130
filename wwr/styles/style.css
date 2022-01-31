@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap|Roboto+Condensed:wght@300&display=swap');
+
 #content {
     max-width:1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align:center;
     color:#1d3557;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -31,6 +34,14 @@ main section {
 
 body {
     background-color: #457b9d;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -46,12 +57,20 @@ nav a:hover {
     background-color: #f1faee;
     color:#1d3557;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: #f1faee;
     color:#1d3557;
     text-decoration: none;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -66,19 +85,47 @@ nav a:hover {
 
 .msg {
     background-color: #457b9d;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color:#1d3557;
+    font-family: 'Bebas Neue', 'Roboto Condensed', sans-serif;
 }
 
 .msg p {
     color:#1d3557;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.card-img {
+    border: 10px solid #f1faee;
+    margin-top: 200px;
+}
+
+.river-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapid-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 footer {
     background-color: #457b9d;
     color: #1d3557;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -96,8 +143,15 @@ footer a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title{
     color:#1d3557;
+    font-family: 'Bebas Neue', 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -106,8 +160,13 @@ h4{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
